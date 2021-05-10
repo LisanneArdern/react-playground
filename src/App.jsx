@@ -4,8 +4,9 @@ import Header from './Header'
 export default () => {
   return (
     <div>
-      <Header isBackButtonVisible>Header with Button</Header>
-      <Header>Another Header</Header>
+      <Header>Home</Header>
+      <Header isBackButtonVisible>Settings</Header>
+      <Header>Profile</Header>
     </div>
   )
 }
