@@ -1,10 +1,11 @@
 import * as React from 'react'
-import Button from './Button'
+import Header from './Header'
+
 export default () => {
   return (
     <div>
-      <Button isActive>Moin there</Button>
-      <Button isActive={false}>Not active</Button>
+      <Header isBackButtonVisible>Header with Button</Header>
+      <Header>Another Header</Header>
     </div>
   )
 }
