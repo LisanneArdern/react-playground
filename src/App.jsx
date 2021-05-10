@@ -1,10 +1,10 @@
 import * as React from 'react'
-import Button from './Button'
+import Card from './Card'
 export default () => {
   return (
     <div>
-      <Button isActive>Moin there</Button>
-      <Button isActive={false}>Not active</Button>
+      <Card isActive />
+      <Card />
     </div>
   )
 }

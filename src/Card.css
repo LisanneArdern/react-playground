@@ -1,0 +1,25 @@
+.Card {
+  margin: 40px;
+  padding: 16px;
+  border: 1px black solid;
+  border-radius: 8px;
+  width: 300px;
+  position: relative;
+}
+.Card__bookmark {
+  position: absolute;
+  top: -12px;
+  right: 8px;
+  border: 20px hotpink solid;
+  border-bottom-color: transparent;
+  height: 20px;
+}
+
+.Card__bookmark--active {
+  position: absolute;
+  top: -12px;
+  right: 8px;
+  border: 20px steelblue solid;
+  border-bottom-color: transparent;
+  height: 20px;
+}
