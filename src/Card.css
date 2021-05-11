@@ -10,16 +10,18 @@
   position: absolute;
   top: -12px;
   right: 8px;
-  border: 20px hotpink solid;
-  border-bottom-color: transparent;
-  height: 20px;
+  width: 30px;
+  height: 60px;
+  background: #bbb;
+  border: none;
 }
 
 .Card__bookmark--active {
   position: absolute;
   top: -12px;
   right: 8px;
-  border: 20px steelblue solid;
-  border-bottom-color: transparent;
-  height: 20px;
+  width: 30px;
+  height: 60px;
+  background: hotpink;
+  border: none;
 }

@@ -4,10 +4,10 @@ import './Card.css'
 export default ({ isActive, title, text }) => {
   return (
     <section className="Card">
-      <div
+      <button
         className={isActive ? 'Card__bookmark--active' : 'Card__bookmark'}
         aria-label="Bookmark card"
-      ></div>
+      ></button>
       <h2>{title}</h2>
       <p>{text}</p>
     </section>
