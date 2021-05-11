@@ -1,7 +1,7 @@
 import * as React from 'react'
 import './Card.css'
 
-export default ({ isActive, title, text }) => {
+export default ({ isActive, title, question, answer, showAnswer }) => {
   return (
     <section className="Card">
       <button
@@ -9,7 +9,8 @@ export default ({ isActive, title, text }) => {
         aria-label="Bookmark card"
       ></button>
       <h2>{title}</h2>
-      <p>{text}</p>
+      <p>{question}</p>
+      <p className={showAnswer ? '' : 'Card__answer--hidden'}>{answer}</p>
     </section>
   )
 }

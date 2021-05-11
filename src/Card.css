@@ -25,3 +25,7 @@
   background: hotpink;
   border: none;
 }
+
+.Card__answer--hidden {
+  display: none;
+}
