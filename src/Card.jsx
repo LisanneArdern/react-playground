@@ -1,14 +1,15 @@
 import * as React from 'react'
 import './Card.css'
 
-export default ({ isActive }) => {
+export default ({ isActive, title, text }) => {
   return (
     <section className="Card">
       <div
         className={isActive ? 'Card__bookmark--active' : 'Card__bookmark'}
+        aria-label="Bookmark card"
       ></div>
-      <h2>Title</h2>
-      <p>Lorem ipsum dolor sit.</p>
+      <h2>{title}</h2>
+      <p>{text}</p>
     </section>
   )
 }
