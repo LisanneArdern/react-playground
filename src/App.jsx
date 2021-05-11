@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Card from './Card'
+import Navigation from './Navigation'
 
 const cards = [
   {
@@ -21,6 +22,7 @@ const cards = [
     id: 2,
   },
 ]
+
 export default () => {
   return (
     <div className="App">
@@ -37,6 +39,9 @@ export default () => {
           />
         )
       )}
+      <Navigation />
+      <Navigation leftIsHighlighted />
+      <Navigation middleIsHighlighted />
     </div>
   )
 }
