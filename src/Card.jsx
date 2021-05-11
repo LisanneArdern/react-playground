@@ -1,7 +1,7 @@
 import * as React from 'react'
 import './Card.css'
 
-export default ({ isActive, title, question, answer, showAnswer }) => {
+export default ({ isActive, title, question, answer, showAnswer, tags }) => {
   return (
     <section className="Card">
       <button
@@ -11,6 +11,13 @@ export default ({ isActive, title, question, answer, showAnswer }) => {
       <h2>{title}</h2>
       <p>{question}</p>
       <p className={showAnswer ? '' : 'Card__answer--hidden'}>{answer}</p>
+      <ul className="Card__taglist">
+        {tags.map(tag => (
+          <li className="Card__tag" key={tag}>
+            {tag}
+          </li>
+        ))}
+      </ul>
     </section>
   )
 }

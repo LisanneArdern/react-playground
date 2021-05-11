@@ -29,3 +29,16 @@
 .Card__answer--hidden {
   display: none;
 }
+
+.Card__taglist {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+}
+
+.Card__tag {
+  list-style: none;
+  background-color: #bbb;
+  padding: 5px;
+  border-radius: 3px;
+}
