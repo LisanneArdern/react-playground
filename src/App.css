@@ -1,0 +1,15 @@
+.App {
+  display: grid;
+  gap: 20px;
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+}
+
+.label {
+  display: grid;
+}
+
+.Box {
+  background: hotpink;
+}
