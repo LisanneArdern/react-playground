@@ -1,0 +1,44 @@
+.Card {
+  margin: 40px;
+  padding: 16px;
+  border: 1px black solid;
+  border-radius: 8px;
+  width: 300px;
+  position: relative;
+}
+.Card__bookmark {
+  position: absolute;
+  top: -12px;
+  right: 8px;
+  width: 30px;
+  height: 60px;
+  background: #bbb;
+  border: none;
+}
+
+.Card__bookmark--active {
+  position: absolute;
+  top: -12px;
+  right: 8px;
+  width: 30px;
+  height: 60px;
+  background: hotpink;
+  border: none;
+}
+
+.Card__answer--hidden {
+  display: none;
+}
+
+.Card__taglist {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+}
+
+.Card__tag {
+  list-style: none;
+  background-color: #bbb;
+  padding: 5px;
+  border-radius: 3px;
+}
