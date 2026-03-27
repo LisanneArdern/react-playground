@@ -1,0 +1,15 @@
+.Navigation {
+  margin: 40px;
+}
+
+.Navigation__button {
+  background: #ccc;
+  height: 40px;
+  width: 70px;
+}
+
+.Navigation__button--highlighted {
+  background-color: hotpink;
+  height: 40px;
+  width: 70px;
+}
